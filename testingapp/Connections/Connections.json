@@ -1,0 +1,32 @@
+{
+  "f3903351-2e12-4526-b393-9a65e9127500": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1674/1.0.1674.3602/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://hrsgroupofservice.sharepoint.com/sites/SPFXPractice": {
+        "dataSources": {
+          "StudentsRegistrationList": {
+            "tableName": "e5b29031-56fb-4e3a-8cc7-155d9156a4aa"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "StudentsRegistrationList"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f3903351-2e12-4526-b393-9a65e9127500"
+  }
+}
